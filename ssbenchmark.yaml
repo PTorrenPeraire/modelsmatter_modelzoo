@@ -1,0 +1,16 @@
+name: ssbenchmark
+
+channels:
+  - default
+  - conda-forge
+  - dglteam
+
+dependencies:
+  - python==3.9
+  # - pytables==3.7.0
+  - rdkit==2022.03.1
+  - poetry==1.1.13
+  # - dgl-cuda11.3
+  - cudatoolkit=11.3
+  - dgl
+

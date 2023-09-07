@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "SSBenchmark"
+version = "0.1.0"
+description = ""
+authors = ["PTorrenPeraire <ptorrenp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pytest-order = "^1.0.1"
+pandas = "^1.4.1"
+torch = "1.12"
+pytorch-lightning = "1.2.3"
+scikit-learn = "^1.0.2"
+hydra-core = "^1.1.1"
+rdchiral = "^1.1.0"
+tqdm = "^4.63.1"
+torchvision = "^0.12.0"
+dgllife = "^0.2.9"
+optuna = "^2.10.0"
+fairscale = "0.3.1"
+deepspeed = "0.3.12"
+numpy = "^1.22.3"
+pysmilesutils = {git = "https://github.com/MolecularAI/pysmilesutils.git"}
+typing-extensions = "^4.1.1"
+jupyterlab = "^3.3.4"
+swifter = "^1.1.3"
+wandb = "^0.12.18"
+ConfigArgParse = "^1.5.3"
+torchtext = "0.5.0"
+tensorboard = "^2.9.1"
+Flask = "^2.1.3"
+waitress = "^2.1.2"
+PyYAML = "^6.0"
+torchmetrics = "^0.9.3"
+registry-factory = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
