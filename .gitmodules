@@ -1,0 +1,9 @@
+[submodule "external_models/modelsmatter_chemformer_hpc"]
+	path = external_models/modelsmatter_chemformer_hpc
+	url = https://github.com/PTorrenPeraire/modelsmatter_chemformer_hpc.git
+[submodule "external_models/modelsmatter_mhn_react_hpc"]
+	path = external_models/modelsmatter_mhn_react_hpc
+	url = https://github.com/PTorrenPeraire/modelsmatter_mhn_react_hpc.git
+[submodule "external_models/modelsmatter_localretro_hpc"]
+	path = external_models/modelsmatter_localretro_hpc
+	url = https://github.com/AlanHassen/modelsmatter_localretro_hpc.git
