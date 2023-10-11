@@ -7,12 +7,12 @@ The SingleStepModelZoo allows the fast extension of AiZynthFinder[2] to intercha
 
 Due to minor changes within the repositries, we fork the mentioned models which are included as submodules within the repository.
 
-## Installation - TO BE UPDATED
-
-1. ``` git clone --recurse-submodules https://github.com/PTorrenPeraire/SSBenchmark.git ```
-2. ```conda env create -f ssbenchmark.yaml```
-   Be aware that this version is developed for CUDA 11.3, if you have different version update the packages accordingly
-3. ```poetry install```
+## Installation
+1. ``` git clone --recurse-submodules https://github.com/PTorrenPeraire/modelsmatter_modelzoo ```
+2. ```cd modelsmatter_modelzoo```
+3. ```conda env create -f ssbenchmark.yaml```
+4. ```conda activate ssbenchmark```
+5. ```poetry install```
 
 By default, the environment includes all packages required for the use of the default models.
 
