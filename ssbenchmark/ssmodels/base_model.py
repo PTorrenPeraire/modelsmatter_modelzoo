@@ -3,15 +3,11 @@ from abc import ABC, abstractmethod
 from typing import Union
 
 import pandas as pd
-# from aidd_codebase.utils.metacoding import DictChoiceFactory
 from registry_factory.factory import Factory
 
 
 class Registries(Factory):
     ModelChoice = Factory.create_registry(shared=False)
-
-# class ModelChoice(DictChoiceFactory):
-#     pass
 
 
 class SSMethod(ABC):
