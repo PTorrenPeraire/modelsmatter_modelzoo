@@ -1,5 +1,4 @@
 from .base_model import Registries
-from .model_test import model_test
 
 from .model_chemformer import model_chemformer
 from .model_localretro import model_localretro
