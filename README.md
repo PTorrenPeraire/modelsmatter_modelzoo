@@ -10,9 +10,10 @@ Due to minor changes within the repositries, we fork the mentioned models which 
 ## Installation
 1. ``` git clone --recurse-submodules https://github.com/PTorrenPeraire/modelsmatter_modelzoo ```
 2. ```cd modelsmatter_modelzoo```
-3. ```conda env create -f ssbenchmark.yaml```
-4. ```conda activate ssbenchmark```
-5. ```poetry install```
+3. a) If installing from scratch ```conda env create -f ssbenchmark.yaml```
+   b) If installing into AiZynthFinder instance ```conda env update -n [AiZynthFinder Environment Name] --file ssbenchmark.yaml```
+5. ```conda activate ssbenchmark``` or ```conda activate [AiZynthFinder Environment Name]```
+6. ```poetry install```
 
 By default, the environment includes all packages required for the use of the default models.
 
