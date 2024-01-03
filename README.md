@@ -40,8 +40,8 @@ All model classes can be found in `ssbenchmark/ssmodels/`.
 ### Introducing new models
 New models follow the same standard template, as shown in `ssbenchmark/ssmodels/model_example.py`. Importantly, each model class must include a `model_setup` function and a `model_call` function. Any string identifier can be used to identify the model, which is shown just before the start of the class and set as `example_model` in the example. The models can then be called using the same format as the default models, simply introducing the relevant model identifier and variables.
 
-### Using sigle-step models in multi-step framework
-All models, both standard and any newly introduced models, can be easily used within the AiZynthFinder framework. Please reference the [ModelsMatter](https://github.com/AlanHassen/modelsmatter) or [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder) repositories for further details on the config files necessary. For new models, the contents of the config file will be informed by the variables that are set in the ModelZoo instance.
+### Using single-step models in multi-step framework
+All models, both standard and any newly introduced models, can be easily used within the AiZynthFinder framework. Please reference the [ModelsMatter](https://github.com/AlanHassen/modelsmatter) or [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder) repositories for further details on the config files necessary. Public datasets and their respective trained models, as used in Models Matter, are availble on the [Models Matter Figshare](https://figshare.com/s/2eab4132b322229c1efc). For new models, the contents of the config file will be informed by the variables that are set in the ModelZoo instance.
 
 ## License
 The software is licensed under the MIT license.
